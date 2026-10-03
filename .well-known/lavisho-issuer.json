@@ -1,1 +1,49 @@
-{"placeholder": true, "note": "Replaced by the signed file generated in Lavisho Identity."}
+{
+  "version": "lvid1",
+  "tenant_name": "Test Bank",
+  "legal_name": "Test Bank PLC",
+  "domain": "rafiul-byte.github.io",
+  "keys": [
+    {
+      "key_id": "ik_3afd029c1dfe4b588b96",
+      "algorithm": "ECDSA_P256",
+      "fingerprint_sha256": "8B:80:83:93:A9:C8:9F:4C:2C:3E:8D:59:CA:88:B7:AA:15:3C:28:93:FF:40:0A:8B:50:68:4C:4A:38:82:6E:CC",
+      "public_jwk": {
+        "x": "AOZz9DYkSS4pUI_Jiw9xkWZGr4FlF3G_GeNVBWIsXP0",
+        "y": "jJZoSRWxkHXCAD5npkIqbxKWoauqCYwpX7f-WfS0QA8",
+        "crv": "P-256",
+        "ext": true,
+        "kid": "ik_3afd029c1dfe4b588b96",
+        "kty": "EC",
+        "use": "sig",
+        "key_ops": [
+          "verify"
+        ]
+      },
+      "valid_from": "2026-10-03T07:11:12.222+00:00",
+      "valid_to": "2028-10-03T08:16:56+00:00"
+    },
+    {
+      "key_id": "ik_d2322997f9d646418ff0",
+      "algorithm": "ECDSA_P256",
+      "fingerprint_sha256": "37:BB:90:02:BC:02:F5:74:D5:55:D2:A8:90:06:B6:56:1D:BA:53:9E:AE:06:A8:EC:12:2E:31:59:E6:CF:C1:7B",
+      "public_jwk": {
+        "x": "V0yO6fo-ZZktVV-7t9LWKYq2Tuy_KUOqdzK5ET4602U",
+        "y": "ta7WYSFyV3bGStsRe3QdRGywD8gvg_YpnUvQD7lmV6Y",
+        "crv": "P-256",
+        "ext": true,
+        "kid": "ik_d2322997f9d646418ff0",
+        "kty": "EC",
+        "use": "sig",
+        "key_ops": [
+          "verify"
+        ]
+      },
+      "valid_from": "2026-10-03T07:42:15.271+00:00",
+      "valid_to": "2028-10-03T08:12:07+00:00"
+    }
+  ],
+  "revocation_url": "https://verify.lavishovault.com/issuers/test-bank-534a/revocations.json",
+  "issued_at": "2026-10-03T09:50:25.180Z",
+  "signature": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImlrXzNhZmQwMjljMWRmZTRiNTg4Yjk2IiwidHlwIjoibGF2aXNoby1pc3N1ZXIrandzIn0.eyJ2ZXJzaW9uIjoibHZpZDEiLCJ0ZW5hbnRfbmFtZSI6IlRlc3QgQmFuayIsImxlZ2FsX25hbWUiOiJUZXN0IEJhbmsgUExDIiwiZG9tYWluIjoicmFmaXVsLWJ5dGUuZ2l0aHViLmlvIiwia2V5cyI6W3sia2V5X2lkIjoiaWtfM2FmZDAyOWMxZGZlNGI1ODhiOTYiLCJhbGdvcml0aG0iOiJFQ0RTQV9QMjU2IiwiZmluZ2VycHJpbnRfc2hhMjU2IjoiOEI6ODA6ODM6OTM6QTk6Qzg6OUY6NEM6MkM6M0U6OEQ6NTk6Q0E6ODg6Qjc6QUE6MTU6M0M6Mjg6OTM6RkY6NDA6MEE6OEI6NTA6Njg6NEM6NEE6Mzg6ODI6NkU6Q0MiLCJwdWJsaWNfandrIjp7IngiOiJBT1p6OURZa1NTNHBVSV9KaXc5eGtXWkdyNEZsRjNHX0dlTlZCV0lzWFAwIiwieSI6ImpKWm9TUld4a0hYQ0FENW5wa0lxYnhLV29hdXFDWXdwWDdmLVdmUzBRQTgiLCJjcnYiOiJQLTI1NiIsImV4dCI6dHJ1ZSwia2lkIjoiaWtfM2FmZDAyOWMxZGZlNGI1ODhiOTYiLCJrdHkiOiJFQyIsInVzZSI6InNpZyIsImtleV9vcHMiOlsidmVyaWZ5Il19LCJ2YWxpZF9mcm9tIjoiMjAyNi0xMC0wM1QwNzoxMToxMi4yMjIrMDA6MDAiLCJ2YWxpZF90byI6IjIwMjgtMTAtMDNUMDg6MTY6NTYrMDA6MDAifSx7ImtleV9pZCI6ImlrX2QyMzIyOTk3ZjlkNjQ2NDE4ZmYwIiwiYWxnb3JpdGhtIjoiRUNEU0FfUDI1NiIsImZpbmdlcnByaW50X3NoYTI1NiI6IjM3OkJCOjkwOjAyOkJDOjAyOkY1Ojc0OkQ1OjU1OkQyOkE4OjkwOjA2OkI2OjU2OjFEOkJBOjUzOjlFOkFFOjA2OkE4OkVDOjEyOjJFOjMxOjU5OkU2OkNGOkMxOjdCIiwicHVibGljX2p3ayI6eyJ4IjoiVjB5TzZmby1aWmt0VlYtN3Q5TFdLWXEyVHV5X0tVT3Fkeks1RVQ0NjAyVSIsInkiOiJ0YTdXWVNGeVYzYkdTdHNSZTNRZFJHeXdEOGd2Z19ZcG5VdlFEN2xtVjZZIiwiY3J2IjoiUC0yNTYiLCJleHQiOnRydWUsImtpZCI6ImlrX2QyMzIyOTk3ZjlkNjQ2NDE4ZmYwIiwia3R5IjoiRUMiLCJ1c2UiOiJzaWciLCJrZXlfb3BzIjpbInZlcmlmeSJdfSwidmFsaWRfZnJvbSI6IjIwMjYtMTAtMDNUMDc6NDI6MTUuMjcxKzAwOjAwIiwidmFsaWRfdG8iOiIyMDI4LTEwLTAzVDA4OjEyOjA3KzAwOjAwIn1dLCJyZXZvY2F0aW9uX3VybCI6Imh0dHBzOi8vdmVyaWZ5LmxhdmlzaG92YXVsdC5jb20vaXNzdWVycy90ZXN0LWJhbmstNTM0YS9yZXZvY2F0aW9ucy5qc29uIiwiaXNzdWVkX2F0IjoiMjAyNi0xMC0wM1QwOTo1MDoyNS4xODBaIn0.GZXvg39l3d0r-QM7wA2u-5kE-qe7GCPrel0rt23kPD8fOESJdr7J63OkhvawqFiPH5xmmqe7OUJdNBMmCJnAnA"
+}
